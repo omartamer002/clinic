@@ -1,0 +1,2 @@
+This is a whole fullstack website for clinic management system. It has user authentication, user management, patient management, appointment management, doctor management, and billing management
+In this website I will use HTML5, CSS3 and JavaScript for front end web development and Python Django, MySQL for the backend.
