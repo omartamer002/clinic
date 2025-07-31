@@ -1,0 +1,23 @@
+{% extends "layout/base.html" %}
+{%load static%}
+{% block title %}Doctors{% endblock %}
+{% block content %}
+<!-- Doctors page content goes here -->
+ <div class="row">
+  {%for Doctor in Doctors%}
+  <div class="col-6">
+<div class="card" style="width: 18rem;">
+  <img src="{% static 'img/logo.png' %}" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">{{Doctor.name}}</h5>
+    <p class="card-text">{{Doctor.Occupation}}</p>
+    <a href="#" class="btn btn-primary">{{Doctor.city}}</a>
+  </div>
+</div>
+{% endfor %}
+  </div>
+ </div>
+ 
+<br>
+<br>
+{% endblock %}

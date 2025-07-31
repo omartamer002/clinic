@@ -1,0 +1,27 @@
+* {
+   box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+  width: 100%;
+}
+    a button {
+        margin: 5px;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+        margin: 0 120px;
+    }
+
+    a button:hover {
+        background-color: #ff0000;
+    }
+body {
+    background-color: blue;
+}
